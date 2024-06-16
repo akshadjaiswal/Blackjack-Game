@@ -22,7 +22,6 @@ function startGame() {
   messageEl.textContent = message;
 }
 function newCard() {
-
   let card = 1;
   sum = sum + card;
   startGame();
