@@ -9,11 +9,17 @@
 </head>
 
 <body>
-    <h1>BlackJack</h1>
-    <p id="message-el">Want to play a round?</p>
-    <p id="cards-el">Cards:</p>
-    <p id="sum-el">Sum:</p>
+    <div class="refresh-btn">
+        <button style="background-color: grey; color: white; margin-right: 100px;"
+            onClick="window.location.reload();">Restart game</button>
+    </div>
     <div>
+        <h1>BlackJack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+    </div>
+    <div class="button">
         <button onclick="startGame()">Start Game</button>
         <button onclick="newCard()">New Card</button>
     </div>
