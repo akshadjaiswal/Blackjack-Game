@@ -1,4 +1,4 @@
 # Blackjack Game
 
-- [Live Link]()
+### [Live Link](https://blackjack-game-akshad.netlify.app/)
  
