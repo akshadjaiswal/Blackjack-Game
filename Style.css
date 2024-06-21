@@ -1,5 +1,5 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Roboto Mono", monospace;
     background-image: url("images/table.png");
     background-size: cover;
     text-align: center;
@@ -13,6 +13,11 @@ h1 {
     font-size: 60px;
 }
 
+#welcome-el {
+    color: powderblue;
+    font-size: 35px;
+}
+
 #message-el {
     font-style: italic;
     font-size: 28px;
@@ -24,10 +29,6 @@ h1 {
 
 #sum-el {
     font-size: 20px;
-}
-
-.refresh-btn {
-    position: absolute;
 }
 
 button {
@@ -53,4 +54,20 @@ button:hover {
 div {
     display: grid;
     justify-content: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+
+}
+
+.footer p a {
+    color: thistle;
+    text-decoration: none;
+    cursor: pointer;
 }

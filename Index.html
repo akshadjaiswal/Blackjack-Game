@@ -9,20 +9,24 @@
 </head>
 
 <body>
-    <div class="refresh-btn">
-        <button style="background-color: grey; color: white; margin-right: 100px;"
-            onClick="window.location.reload();">Restart game</button>
-    </div>
-    <div>
-        <h1>BlackJack</h1>
-        <p id="message-el">Want to play a round?</p>
-        <p id="cards-el">Cards:</p>
-        <p id="sum-el">Sum:</p>
-    </div>
+    <h1>BlackJack</h1>
+    <p id="welcome-el"></p>
+    <p id="message-el">Want to play a round?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+
     <div class="button">
         <button onclick="startGame()">Start Game</button>
         <button onclick="newCard()">New Card</button>
     </div>
+    <p id="player-el"></p>
+    <footer>
+        <div class="footer">
+            <p>Created by <a href="https://akshadjaiswal-website.netlify.app/" target="_blank">Akshad</a> </p>
+            <p> <a href="https://bio.link/akshad_jaiswal" target="_blank">Connect with me</a> </p>
+
+        </div>
+    </footer>
 </body>
 <script src="App.js"></script>
 
